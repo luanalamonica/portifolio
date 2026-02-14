@@ -1,0 +1,10 @@
+# Ignorar dependências e builds
+node_modules/
+dist/
+
+# Ignorar arquivos de ambiente sensíveis
+backend/.env
+
+# Arquivos de editor/SO
+.vscode/
+.DS_Store

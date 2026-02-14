@@ -73,6 +73,10 @@ app.post("/contact", (req, res) => {
       return res.status(500).json({
         error:
           "Recebi sua mensagem, mas ocorreu um erro ao enviar o e-mail. Tente novamente mais tarde.",
+        details:
+          error instanceof Error
+            ? error.message
+            : "Erro desconhecido ao enviar e-mail.",
       });
     });
 });
