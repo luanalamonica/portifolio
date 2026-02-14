@@ -32,6 +32,8 @@ type FeaturedProject = {
 
 type Language = 'pt' | 'en'
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3333'
+
 const uiText = {
   pt: {
     pageTitle: 'Front-end Developer',
@@ -168,7 +170,7 @@ function App() {
     setIsSendingContact(true)
 
     try {
-      const response = await fetch('http://localhost:3333/contact', {
+      const response = await fetch(`${API_BASE_URL}/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

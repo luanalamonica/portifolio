@@ -68,7 +68,7 @@ app.post("/contact", (req, res) => {
           "Mensagem enviada com sucesso! Já chegou no meu e-mail. Obrigada por entrar em contato!",
       });
     })
-    .catch((error) => {
+    .catch((error: unknown) => {
       console.error("Erro ao enviar e-mail de contato", error);
       return res.status(500).json({
         error:
