@@ -6,7 +6,7 @@ Aplicação de portfólio pessoal desenvolvida para apresentar minha trajetória
 
 - Site publicado: https://portifolio-luanalamonica.vercel.app/
 
-![Home do portfólio](./frontend/public/home.png)
+![Home do portfólio]([./frontend/public/home.png](https://github.com/luanalamonica/portifolio/blob/main/home.png?raw=true))
 
 ## ✨ Funcionalidades
 
