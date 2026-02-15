@@ -6,12 +6,6 @@ Aplicação de portfólio pessoal desenvolvida para apresentar minha trajetória
 
 - Site publicado: https://portifolio-luanalamonica.vercel.app/
 
-### Preview
-
-![Preview do portfólio](./frontend/public/perfil.jpeg)
-
-> Na versão online, a foto é usada na seção principal (hero) ao lado do texto "Front-end Developer".
-
 ## ✨ Funcionalidades
 
 - **Layout em seções:** Home, experiências, projetos em destaque, mais projetos do GitHub e contato.
