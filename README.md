@@ -6,6 +6,8 @@ Aplicação de portfólio pessoal desenvolvida para apresentar minha trajetória
 
 - Site publicado: https://portifolio-luanalamonica.vercel.app/
 
+![Home do portfólio](./frontend/public/home.png)
+
 ## ✨ Funcionalidades
 
 - **Layout em seções:** Home, experiências, projetos em destaque, mais projetos do GitHub e contato.
@@ -53,7 +55,8 @@ portifolio/
     ├── package.json
     ├── index.html
     ├── public/
-    │   └── perfil.jpeg     # Foto usada na seção principal (hero)
+    │   ├── perfil.jpeg     # Foto usada na seção principal (hero)
+    │   └── home.png        # Print da home usado no README
     └── src/
         ├── main.tsx
         ├── App.tsx         # Layout completo do portfólio
@@ -180,10 +183,8 @@ Certifique-se de que o backend está rodando para que o formulário de contato f
 
 ## 📝 Como adicionar mais imagens no README
 
-Atualmente, o README usa a imagem `perfil.jpeg` que está em `frontend/public`. Se quiser adicionar mais prints das seções do site:
-
-1. Tire screenshots das áreas que deseja destacar (experiences, projects, contact, etc.).
-2. Salve os arquivos em `frontend/public` (por exemplo, `home.png`, `projects.png`).
+1. Tire novas screenshots das áreas que deseja destacar (experiences, projects, contact, etc.).
+2. Salve os arquivos em `frontend/public` (por exemplo, `projects.png`).
 3. Adicione no README, por exemplo:
 
 ```markdown
